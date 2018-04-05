@@ -6,12 +6,27 @@
  It replaces System.out.print() to the following format (See the API). 
 
 ## API
+    import systemln.*;
+    
+     //in main method
+    
+    o.l(Object obj); // prints obj without a line break
+    o.n(Object obj); // prints obj with a line break
  
- import systemln.*;
+
+## Example
  
- //in main method
- o.l(Object obj); // prints obj without a line break
- o.n(Object obj); // prints obj with a line break
+     package com.example;
+ 
+     import systemln.*;
+ 
+     public static void main(String[] arg){
+ 
+         o.n("statement with line break");
+         o.l("statement without line break");
+         o.n("another line break with line break");
+ 
+     }
  
  
 
