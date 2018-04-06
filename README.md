@@ -9,7 +9,7 @@
 
     import systemln.*;
     
-     //in main method
+    //inside a method call
     o.l("prints string literal without a line break");
     o.n("prints string literal with a line break");
  
