@@ -21,9 +21,9 @@
  
      public static void main(String[] arg){
  
-         o.n("statement with line break");
-         o.l("statement without line break");
-         o.n("another statement with line break");
+         o.n("statement with a line break");
+         o.l("statement without a line break");
+         o.n("another statement a with line break");
  
      }
  
