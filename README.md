@@ -23,7 +23,7 @@
  
          o.n("statement with line break");
          o.l("statement without line break");
-         o.n("another line break with line break");
+         o.n("another statement with line break");
  
      }
  
