@@ -3,15 +3,15 @@
  Simply import this JAR file to your project's external libraries to see the magic. 
  
 ## Functionality 
- It replaces System.out.print() to the following format (See the API). 
+ It replaces System.out.print() to a minimized form i.e. o.l() and System.out.println() to o.n().
 
 ## API
+
     import systemln.*;
     
      //in main method
-    
-    o.l(Object obj); // prints obj without a line break
-    o.n(Object obj); // prints obj with a line break
+    o.l("prints string literal without a line break");
+    o.n("prints string literal with a line break");
  
 ## Example
  
@@ -28,4 +28,5 @@
      }
  
  
-
+Developed by Raj Kishor Maharana
+Date created - 5 Apr 2018
